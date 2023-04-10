@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/************
+1199px
+************/
+@media only screen and (max-width: 1199px)
+{
+	.box
+	{
+		height: 313px;
+	}
+	.box-phone
+	{
+		font-size: 24px;
+	}
+}
+
+/************
+991px
+************/
+@media only screen and (max-width: 991px)
+{
+	.main-nav
+	{
+		display: none;
+	}
+	
+	.hamburger
+	{
+		display: block;
+	}
+	.home-title h1
+	{
+		font-size: 56px;
+	}
+	.boxes
+	{
+		padding-top: 95px;
+	}
+	.box-col
+	{
+		margin-top: 0;
+	}
+	.box-col:not(:last-child)
+	{
+		margin-bottom: 30px;
+	}
+	.box
+	{
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.about-image
+	{
+		position: relative;
+		right: auto;
+		bottom: auto;
+		text-align: center;
+		margin-top: 55px;
+	}
+	.contact-form
+	{
+		padding-top: 75px;
+	}
+	.copyright-content
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+/************
+767px
+************/
+@media only screen and (max-width: 767px)
+{
+	.topbar
+	{
+		display: none;
+	}
+	
+	.home-content-inner
+	{
+		width: 100%;
+	}
+}
+
+/************
+575px
+************/
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 13px;
+	}
+	.header.scrolled
+	{
+		top: 0px !important;
+	}
+	.header-content,
+	.header.scrolled .header-content
+	{
+		height: 60px;
+	}
+	.hamburger i
+	{
+		font-size: 20px;
+	}
+	
+	.menu
+	{
+		top: 90px;
+	}
+	.menu-close-container
+	{
+		top: 20px;
+		right: 20px;
+	}
+	.home
+	{
+		height: 100vh;
+	}
+	.home-content
+	{
+		top: calc(50% + 34px);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.home-title h1
+	{
+		font-size: 36px;
+	}
+	.home-text p
+	{
+		font-size: 13px;
+	}
+	.menu-container
+	{
+		width: 100vw;
+		right: -100vw;
+	}
+	.menu-item a
+	{
+		font-size: 20px;
+	}
+	.section-title h2
+	{
+		font-size: 24px;
+	}
+	.button
+	{
+		height: 41px;
+	}
+	.button a
+	{
+		font-size: 11px;
+		line-height: 41px;
+		padding-left: 29px;
+		padding-right: 34px;
+	}
+	.box
+	{
+		padding-left: 25px;
+	}
+	.working-hours
+	{
+		padding-right: 30px;
+	}
+}
+
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	.home-title h1
+	{
+		font-size: 28px;
+	}
+}
+
